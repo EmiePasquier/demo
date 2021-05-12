@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+
+      <a-assets>
+
+        <img id= "texture1" src="a.jpg">
+        <img id= "texture2" src="2.jpg">
+        <img id= "texture3" src="4.jpg">
+        <img id= "texture4" src="5.jpg">
+        <img id= "texture5" src="6.jpg">
+        <img id= "texture6" src="7.jpg">
+
+        <img id= "texture" src="ciel.jpg">
+      
+
+      </a-assets>
+
+      
+          <a-box position="0.75 1 -0.75" color="black" scale="1.5 2 0.01" scr="#texture1"></a-box>  
+          <a-box position="0 1 -0.5625" color="black" scale="0.01 2 0.375" scr="2.jpg"></a-box>  
+          <a-box position="-0.5625 1 0" color="black" scale="0.375 2 0.01" scr="4.jpg"></a-box>  
+          <a-box position="-0.75 1 0" color="black" scale="0.01 2 1.5" scr="5.jpg"></a-box>    
+          
+          <a-box position="-0.75 1 0" color="black" scale="0.01 2 1.5" scr="6.jpg"></a-box>    
+          <a-box position="-0.75 1 0" color="black" scale="0.01 2 1.5" scr="7.jpg"></a-box>    
+          <a-box position="-0.75 1 0" color="black" scale="0.01 2 1.5" scr="a.jpg"></a-box>    
+          <a-box position="0.5625 1 0 " color="black" scale="0.375 2 0.01" ></a-box> 
+          <a-box position="0.75 1 0.375" color="black" scale="0.01 2 0.75"></a-box> 
+          <a-box position="1.125 1 0.375" color="black" scale="0.75 2 0.01"></a-box> 
+          <a-box position="0 1 0.5625" color="black" scale="0.01 2 0.375"></a-box> 
+
+          <a-box position="0 1 -1.5" color="black" scale="3 2 0.01"></a-box> 
+          <a-box position="-1.5 1 0" color="black" scale="0.01 2 3"></a-box> 
+          <a-box position="0 1 1.5" color="black" scale="3 2 0.01"></a-box> 
+          <a-box position="1.5 1 -0.5625" color="black" scale="0.01 2 1.875"></a-box> 
+          <a-box position="1.5 1 1.125" color="black" scale="0.01 2 0.75"></a-box>
+               
+          <a-plane position="0 0 0" rotation="-90 0 0" width="3" height="3" color="#7BC8A4"></a-plane>
+          <a-sky src="ciel.jpg"></a-sky>
+          <a-camera position="0 6 0"></a-camera>
+
+    </a-scene>
+  </body>
+</html>
